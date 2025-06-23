@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #E6E6FA;
     color: #4B0082;
+
     line-height: 1.6;
 }
 
@@ -29,7 +30,7 @@ p h3 {
 
 form {
     background-color: #d5f5ff;
-    padding: 20px;
+    padding: 25px;
     border-radius: 0;
     box-shadow: none;
     width: 100%;
@@ -80,7 +81,7 @@ form button[type="submit"] {
 }
 
 form button[type="submit"]:hover {
-    background-color: #e8d0ff;
+    background-color: #689dff;
 }
 
 .error-message {
@@ -98,39 +99,6 @@ h2 {
     color: #000000;
     margin-top: 30px;
     margin-bottom: 15px;
-}
-
-.taskList {
-    list-style: none;
-    padding: 0;
-    width: 100%;
-    max-width: none;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background-color: #92acff;
-    padding-bottom: 20px;
-}
-
-.taskList .error-message {
-    color: #000000;
-    font-style: italic;
-    text-align: center;
-    padding: 10px;
-    background-color: #92acff;
-    border-radius: 0;
-    border: none; 
-    margin: 10px;
-}
-
-.task-item {
-    background-color: #92acff;
-    border: none; 
-    border-radius: 0;
-    box-shadow: none;
-    margin: 0 10px;
-    padding: 15px 20px;
 }
 
 .task-item:hover {
