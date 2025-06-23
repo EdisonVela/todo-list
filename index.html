@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Tareas</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo.css">
     
 </head>
 <body>
@@ -12,7 +12,7 @@
     <p>Nombre del estudiante: <h3>Edison Vela</h3></p>
     
     <form id="task-form">
-        <label for="Nombre">Nombre:</label>
+        <label for="Nombre">NombreTarea:</label>
         <input type="text" id="Nombre" maxlength="25" required placeholder="Ejempl: Comprar pan pan">
         <span class="error-message" id="errorNombre"></span> 
 
@@ -21,15 +21,14 @@
         <span class="error-message" id="errorDate"></span> 
 
         <label for="Descripción">Descripción:</label>
-        <textarea id="Descripción" rows="3" placeholder="Detalles sobre la tarea"></textarea>
-        <br> 
+        <textarea id="Descripción" rows="3" placeholder="Detalles sobre la tarea"></textarea><br> <br>
         <button type="submit">Agregar tarea</button> 
     </form>
 
     <h2>Mis Tareas</h2>
-    <ul id="taskList">
+      <ul id="taskList">
         <p class="error-message">¡Aún no hay tareas! Agrega tareaas</p>
-    </ul>
+        </ul>
 
     <script src="script.js"></script>
 </body>

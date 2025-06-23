@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6FA;
+    color: #4B0082;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    margin: 20px 0 10px 0;
+}
+
+p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #000000;
+}
+p h3 {
+    text-align: center;
+    
+    color: #ff8c00;
+    font-size: 1.1em;
+    margin-left: 5px;
+}
+
+form {
+    background-color: #d5f5ff;
+    padding: 20px;
+    border-radius: 0;
+    box-shadow: none;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: none;
+}
+
+form label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+    color: #483D8B;
+}
+
+form input[type="text"],
+form input[type="date"],
+form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none; 
+    border-radius: 0;
+    font-size: 1em;
+    box-sizing: border-box;
+    background-color: #F8F8FF;
+    color: #191970;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button[type="submit"] {
+    background-color: #000755;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+
+    font-size: 1.1em;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+    width: 100%;
+}
+
+form button[type="submit"]:hover {
+    background-color: #e8d0ff;
+}
+
+.error-message {
+    color: #560000;
+
+    font-size: 0.9em;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.taskList {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #92acff;
+    padding-bottom: 20px;
+}
+
+.taskList .error-message {
+    color: #000000;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    background-color: #92acff;
+    border-radius: 0;
+    border: none; 
+    margin: 10px;
+}
+
+.task-item {
+    background-color: #92acff;
+    border: none; 
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0 10px;
+    padding: 15px 20px;
+}
+
+.task-item:hover {
+    background-color: #b0c6ff;
+}
+
+.task-item h3 {
+    margin-top: 0;
+    color: #d1c9ff;
+    font-size: 1.3em;
+    margin-bottom: 8px;
+}
+
+.task-item p {
+    margin: 5px 0;
+    color: #708090;
+    font-size: 0.95em;
+    text-align: left;
+}
+
